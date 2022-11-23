@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/hur/robot_sp/devel/lib/libTestLib.a  CMakeFiles/TestLib.dir/src/TestLib_generated_vectoradd.cu.o
+/usr/bin/ranlib /home/hur/robot_sp/devel/lib/libTestLib.a

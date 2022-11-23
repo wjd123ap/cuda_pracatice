@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/hur/robot_sp/devel/lib/libCUDASampLib.a  CMakeFiles/CUDASampLib.dir/src/CUDASampLib_generated_basic.cu.o
+/usr/bin/ranlib /home/hur/robot_sp/devel/lib/libCUDASampLib.a

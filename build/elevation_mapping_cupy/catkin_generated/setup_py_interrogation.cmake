@@ -1,0 +1,7 @@
+set(elevation_mapping_cupy_SETUP_PY_SETUP_MODULE "distutils.core")
+set(elevation_mapping_cupy_SETUP_PY_VERSION "0.0.0")
+set(elevation_mapping_cupy_SETUP_PY_SCRIPTS "")
+set(elevation_mapping_cupy_SETUP_PY_PACKAGES "elevation_mapping_cupy")
+set(elevation_mapping_cupy_SETUP_PY_PACKAGE_DIRS "script/elevation_mapping_cupy")
+set(elevation_mapping_cupy_SETUP_PY_MODULES "")
+set(elevation_mapping_cupy_SETUP_PY_MODULE_DIRS "")

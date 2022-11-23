@@ -1,0 +1,8 @@
+prefix=/home/hur/robot_sp/install
+
+Name: cuda_example
+Description: Description of cuda_example
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

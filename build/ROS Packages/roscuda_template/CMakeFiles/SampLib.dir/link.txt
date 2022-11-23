@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/hur/robot_sp/devel/lib/libSampLib.a  CMakeFiles/SampLib.dir/src/SampLib_generated_template.cu.o
+/usr/bin/ranlib /home/hur/robot_sp/devel/lib/libSampLib.a

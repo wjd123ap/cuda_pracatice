@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="93" failures="0" disabled="0" errors="0" time="0.026" timestamp="2022-09-16T01:55:31" name="AllTests">
+  <testsuite name="CubicConvolutionInterpolation" tests="7" failures="0" disabled="0" errors="0" time="0.014" timestamp="2022-09-16T01:55:31">
+    <testcase name="FlatWorld" status="run" result="completed" time="0.001" timestamp="2022-09-16T01:55:31" classname="CubicConvolutionInterpolation" />
+    <testcase name="RationalFunctionWorld" status="run" result="completed" time="0.004" timestamp="2022-09-16T01:55:31" classname="CubicConvolutionInterpolation" />
+    <testcase name="SaddleWorld" status="run" result="completed" time="0.001" timestamp="2022-09-16T01:55:31" classname="CubicConvolutionInterpolation" />
+    <testcase name="SecondOrderPolyWorld" status="run" result="completed" time="0.001" timestamp="2022-09-16T01:55:31" classname="CubicConvolutionInterpolation" />
+    <testcase name="SineWorld" status="run" result="completed" time="0.005" timestamp="2022-09-16T01:55:31" classname="CubicConvolutionInterpolation" />
+    <testcase name="TanhWorld" status="run" result="completed" time="0.001" timestamp="2022-09-16T01:55:31" classname="CubicConvolutionInterpolation" />
+    <testcase name="GaussianWorld" status="run" result="completed" time="0.001" timestamp="2022-09-16T01:55:31" classname="CubicConvolutionInterpolation" />
+  </testsuite>
+  <testsuite name="CubicInterpolation" tests="7" failures="0" disabled="0" errors="0" time="0.01" timestamp="2022-09-16T01:55:31">
+    <testcase name="FlatWorld" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="CubicInterpolation" />
+    <testcase name="RationalFunctionWorld" status="run" result="completed" time="0.002" timestamp="2022-09-16T01:55:31" classname="CubicInterpolation" />
+    <testcase name="SaddleWorld" status="run" result="completed" time="0.001" timestamp="2022-09-16T01:55:31" classname="CubicInterpolation" />
+    <testcase name="SecondOrderPolyWorld" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="CubicInterpolation" />
+    <testcase name="SineWorld" status="run" result="completed" time="0.005" timestamp="2022-09-16T01:55:31" classname="CubicInterpolation" />
+    <testcase name="TanhWorld" status="run" result="completed" time="0.001" timestamp="2022-09-16T01:55:31" classname="CubicInterpolation" />
+    <testcase name="GaussianWorld" status="run" result="completed" time="0.001" timestamp="2022-09-16T01:55:31" classname="CubicInterpolation" />
+  </testsuite>
+  <testsuite name="PositionFromIndex" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2022-09-16T01:55:31">
+    <testcase name="Simple" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="PositionFromIndex" />
+    <testcase name="CircularBuffer" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="PositionFromIndex" />
+  </testsuite>
+  <testsuite name="IndexFromPosition" tests="3" failures="0" disabled="0" errors="0" time="0" timestamp="2022-09-16T01:55:31">
+    <testcase name="Simple" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="IndexFromPosition" />
+    <testcase name="EdgeCases" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="IndexFromPosition" />
+    <testcase name="CircularBuffer" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="IndexFromPosition" />
+  </testsuite>
+  <testsuite name="checkIfPositionWithinMap" tests="3" failures="0" disabled="0" errors="0" time="0" timestamp="2022-09-16T01:55:31">
+    <testcase name="Inside" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="checkIfPositionWithinMap" />
+    <testcase name="Outside" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="checkIfPositionWithinMap" />
+    <testcase name="EdgeCases" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="checkIfPositionWithinMap" />
+  </testsuite>
+  <testsuite name="getIndexShiftFromPositionShift" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2022-09-16T01:55:31">
+    <testcase name="All" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="getIndexShiftFromPositionShift" />
+  </testsuite>
+  <testsuite name="getPositionShiftFromIndexShift" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2022-09-16T01:55:31">
+    <testcase name="All" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="getPositionShiftFromIndexShift" />
+  </testsuite>
+  <testsuite name="checkIfIndexInRange" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2022-09-16T01:55:31">
+    <testcase name="All" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="checkIfIndexInRange" />
+  </testsuite>
+  <testsuite name="boundIndexToRange" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2022-09-16T01:55:31">
+    <testcase name="All" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="boundIndexToRange" />
+  </testsuite>
+  <testsuite name="wrapIndexToRange" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2022-09-16T01:55:31">
+    <testcase name="All" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="wrapIndexToRange" />
+  </testsuite>
+  <testsuite name="boundPositionToRange" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2022-09-16T01:55:31">
+    <testcase name="Simple" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="boundPositionToRange" />
+    <testcase name="Position" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="boundPositionToRange" />
+  </testsuite>
+  <testsuite name="getSubmapInformation" tests="6" failures="0" disabled="0" errors="0" time="0" timestamp="2022-09-16T01:55:31">
+    <testcase name="Simple" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="getSubmapInformation" />
+    <testcase name="Zero" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="getSubmapInformation" />
+    <testcase name="ExceedingBoundaries" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="getSubmapInformation" />
+    <testcase name="CircularBuffer" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="getSubmapInformation" />
+    <testcase name="Debug1" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="getSubmapInformation" />
+    <testcase name="Debug2" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="getSubmapInformation" />
+  </testsuite>
+  <testsuite name="getBufferRegionsForSubmap" tests="3" failures="0" disabled="0" errors="0" time="0" timestamp="2022-09-16T01:55:31">
+    <testcase name="Trivial" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="getBufferRegionsForSubmap" />
+    <testcase name="Simple" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="getBufferRegionsForSubmap" />
+    <testcase name="CircularBuffer" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="getBufferRegionsForSubmap" />
+  </testsuite>
+  <testsuite name="checkIncrementIndex" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2022-09-16T01:55:31">
+    <testcase name="Simple" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="checkIncrementIndex" />
+    <testcase name="CircularBuffer" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="checkIncrementIndex" />
+  </testsuite>
+  <testsuite name="checkIncrementIndexForSubmap" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2022-09-16T01:55:31">
+    <testcase name="Simple" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="checkIncrementIndexForSubmap" />
+    <testcase name="CircularBuffer" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="checkIncrementIndexForSubmap" />
+  </testsuite>
+  <testsuite name="getIndexFromLinearIndex" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2022-09-16T01:55:31">
+    <testcase name="Simple" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="getIndexFromLinearIndex" />
+  </testsuite>
+  <testsuite name="GridMap" tests="6" failures="0" disabled="0" errors="0" time="0" timestamp="2022-09-16T01:55:31">
+    <testcase name="CopyConstructor" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="GridMap" />
+    <testcase name="CopyAssign" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="GridMap" />
+    <testcase name="Move" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="GridMap" />
+    <testcase name="Transform" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="GridMap" />
+    <testcase name="ClipToMap" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="GridMap" />
+    <testcase name="ClipToMap2" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="GridMap" />
+  </testsuite>
+  <testsuite name="AddDataFrom" tests="3" failures="0" disabled="0" errors="0" time="0" timestamp="2022-09-16T01:55:31">
+    <testcase name="ExtendMapAligned" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="AddDataFrom" />
+    <testcase name="ExtendMapNotAligned" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="AddDataFrom" />
+    <testcase name="CopyData" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="AddDataFrom" />
+  </testsuite>
+  <testsuite name="ValueAtPosition" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2022-09-16T01:55:31">
+    <testcase name="NearestNeighbor" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="ValueAtPosition" />
+    <testcase name="LinearInterpolated" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="ValueAtPosition" />
+  </testsuite>
+  <testsuite name="GridMapIterator" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2022-09-16T01:55:31">
+    <testcase name="Simple" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="GridMapIterator" />
+    <testcase name="LinearIndex" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="GridMapIterator" />
+  </testsuite>
+  <testsuite name="LineIterator" tests="6" failures="0" disabled="0" errors="0" time="0" timestamp="2022-09-16T01:55:31">
+    <testcase name="StartOutsideMap" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="LineIterator" />
+    <testcase name="EndOutsideMap" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="LineIterator" />
+    <testcase name="StartAndEndOutsideMap" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="LineIterator" />
+    <testcase name="StartAndEndOutsideMapWithoutIntersectingMap" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="LineIterator" />
+    <testcase name="MovedMap" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="LineIterator" />
+    <testcase name="StartAndEndOutsideMovedMap" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="LineIterator" />
+  </testsuite>
+  <testsuite name="EllipseIterator" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2022-09-16T01:55:31">
+    <testcase name="OneCellWideEllipse" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="EllipseIterator" />
+  </testsuite>
+  <testsuite name="SubmapIterator" tests="3" failures="0" disabled="0" errors="0" time="0" timestamp="2022-09-16T01:55:31">
+    <testcase name="Simple" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="SubmapIterator" />
+    <testcase name="CircularBuffer" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="SubmapIterator" />
+    <testcase name="InterleavedExecutionWithMove" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="SubmapIterator" />
+  </testsuite>
+  <testsuite name="PolygonIterator" tests="5" failures="0" disabled="0" errors="0" time="0" timestamp="2022-09-16T01:55:31">
+    <testcase name="FullCover" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="PolygonIterator" />
+    <testcase name="Outside" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="PolygonIterator" />
+    <testcase name="Square" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="PolygonIterator" />
+    <testcase name="TopLeftTriangle" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="PolygonIterator" />
+    <testcase name="MoveMap" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="PolygonIterator" />
+  </testsuite>
+  <testsuite name="Polygon" tests="7" failures="0" disabled="0" errors="0" time="0" timestamp="2022-09-16T01:55:31">
+    <testcase name="getCentroidTriangle" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="Polygon" />
+    <testcase name="getCentroidRectangle" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="Polygon" />
+    <testcase name="getBoundingBox" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="Polygon" />
+    <testcase name="convexHullPoints" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="Polygon" />
+    <testcase name="convexHullPolygon" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="Polygon" />
+    <testcase name="convexHullCircles" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="Polygon" />
+    <testcase name="convexHullCircle" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="Polygon" />
+  </testsuite>
+  <testsuite name="convertToInequalityConstraints" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2022-09-16T01:55:31">
+    <testcase name="triangle1" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="convertToInequalityConstraints" />
+    <testcase name="triangle2" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="convertToInequalityConstraints" />
+  </testsuite>
+  <testsuite name="offsetInward" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2022-09-16T01:55:31">
+    <testcase name="triangle" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="offsetInward" />
+  </testsuite>
+  <testsuite name="triangulation" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2022-09-16T01:55:31">
+    <testcase name="triangle" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="triangulation" />
+    <testcase name="rectangle" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="triangulation" />
+  </testsuite>
+  <testsuite name="EigenMatrixBaseAddons" tests="6" failures="0" disabled="0" errors="0" time="0.001" timestamp="2022-09-16T01:55:31">
+    <testcase name="numberOfFinites" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="EigenMatrixBaseAddons" />
+    <testcase name="sumOfFinites" status="run" result="completed" time="0.001" timestamp="2022-09-16T01:55:31" classname="EigenMatrixBaseAddons" />
+    <testcase name="meanOfFinites" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="EigenMatrixBaseAddons" />
+    <testcase name="minCoeffOfFinites" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="EigenMatrixBaseAddons" />
+    <testcase name="maxCoeffOfFinites" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="EigenMatrixBaseAddons" />
+    <testcase name="clamp" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="EigenMatrixBaseAddons" />
+  </testsuite>
+  <testsuite name="SpiralIterator" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2022-09-16T01:55:31">
+    <testcase name="CenterOutOfMap" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="SpiralIterator" />
+  </testsuite>
+  <testsuite name="SlidingWindowIterator" tests="3" failures="0" disabled="0" errors="0" time="0" timestamp="2022-09-16T01:55:31">
+    <testcase name="WindowSize3Cutoff" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="SlidingWindowIterator" />
+    <testcase name="WindowSize5" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="SlidingWindowIterator" />
+    <testcase name="WindowSize3Inside" status="run" result="completed" time="0" timestamp="2022-09-16T01:55:31" classname="SlidingWindowIterator" />
+  </testsuite>
+</testsuites>

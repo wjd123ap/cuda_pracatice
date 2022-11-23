@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libSTATIC.so -o /home/hur/robot_sp/devel/lib/libSTATIC.so CMakeFiles/STATIC.dir/src/STATIC_generated_basic.cu.o  /usr/local/cuda/lib64/libcudart_static.a -lpthread -ldl -lrt 

@@ -1,0 +1,8 @@
+prefix=/home/hur/robot_sp/install
+
+Name: roscuda_img_filter
+Description: Description of roscuda_img_filter
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

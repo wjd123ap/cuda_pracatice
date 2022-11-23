@@ -1,0 +1,8 @@
+prefix=/home/hur/robot_sp/install
+
+Name: elevation_mapping_cupy
+Description: Description of elevation_mapping_cupy
+Version: 0.0.0
+Cflags: -I${prefix}/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy tf tf_conversions sensor_msgs std_msgs geometry_msgs elevation_map_msgs grid_map_ros pcl_ros pybind11_catkin
